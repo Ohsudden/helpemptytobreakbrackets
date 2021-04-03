@@ -1,1 +1,125 @@
-
+header{
+    margin:0 auto;
+    max-height: 100%;
+    width:100%;
+position: cover;
+max-width:100%;
+    font-size: 0.85vw;
+  }
+hr{background-color:#27288A ;
+  height:0.1em;
+margin-bottom: 0;}
+#sm{margin-left:15em;
+  margin-top:4em;
+  float:left;}
+  .help{color:#ffffff;
+    margin-top:10em;
+    margin-left:10em;
+    font-size:1.2em;
+    float:left;
+  }
+  #betatest{float: right;
+  font-size: 5em;
+  margin-top: 0.3em;
+  color:#ffffff}
+.top{
+ 
+    margin-top:0;
+    margin-bottom:0;
+    background: rgb(18,10,167);
+    background: linear-gradient(270deg, #27288A 0%, #2F2FA1
+ 82%)
+}
+#seees{  
+  width:8em;
+}
+  .bottom{
+    height: 50em;
+    margin-top:-10;
+    background: rgb(18,10,167);
+    background: linear-gradient(270deg, #27288A 0%, #2F2FA1
+ 82%)
+  }
+  .siza{margin-left:50em;
+    max-width:100%;
+  }
+  .modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    
+    .modal-content {
+    position: relative;
+    border-radius: 5%;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 0;
+    color:black;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+    }
+    
+    
+    @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+    }
+    
+    @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+    }
+    
+    
+    .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    
+    .modal-header {
+    padding: 2px 16px;
+    color:rgb(0, 0, 0);
+    }
+    
+    .modal-body {padding: 2px 16px;
+    border-top: 1px solid rgba(0,0,0,.3);
+    }
+    
+    .modal-footer {
+    border-top: 1px solid rgba(0,0,0,.3);
+    padding: 2px 16px;
+    color:rgb(0, 0, 0);
+    }
+    .modal-body a{
+    text-decoration:none;
+    color:black;
+    }
+    .seees{width:10em;
+    height:auto;
+    width:absolute;
+    max-width:100%;
+    margin-left:110px;
+    }
