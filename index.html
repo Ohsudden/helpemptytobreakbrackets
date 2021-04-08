@@ -8,36 +8,37 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
+  
   <header>
     <div class=top><img src="Logo.png" id="seees">
     <div id="betatest">HelpEmptyToBreakBrackets</div>
+    <div id="myModal" class="modal">
+        
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Контактні дані</h2>
+            </div>
+            <div class="modal-body">
+              <p><a href="#"><img src="Telegram.png" width="16">Telegram</a></p>
+              <p><img src="Viber.png" width="16">Viber:+380637011040</p>
+              <p><a href="#"><img src="discord.png" width="16">Discord</a></p>
+            </div>
+            <div class="modal-footer">
+              <h3>Hleb and 『 』</h3>
+            </div>
+          </div>
+        </div>
 <hr color="#27288A" >
-      <!--<div id="myModal" class="modal">
-      
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close">&times;</span>
-            <h2>Контактні дані</h2>
-          </div>
-          <div class="modal-body">
-            <p><a href="#"><img src="Telegram.png" width="16">Telegram</a></p>
-            <p><img src="Viber.png" width="16">Viber:+380637011040</p>
-            <p><a href="#"><img src="discord.png" width="16">Discord</a></p>
-          </div>
-          <div class="modal-footer">
-            <h3>Hleb, 『 』, andray1301 and D3cryptHAX</h3>
-          </div>
-        </div>-->
-      </div>
-    </div>
       </div>
       <div class=bottom><img src="pikcha.png" id="sm"><div class="help"><h1>Полезные ссылки для веб-разработчиков.
       </h1><br>
       Программы, сервисы и библиотеки которые будут полезны в работе :)
-    </div></div>
-     
+    </div>
+
          </header>
-         <body>
+         
+           <div class="q">
           <h3>Редакторы кода</h3>
               <ol>
                   <li><a href="https://code.visualstudio.com/">Vs Code</a>-один из функциональнейших редакторов</li>
@@ -59,51 +60,64 @@
                 <li><a href="http://htmlbook.ru/css-cheat-sheet">HTML Book</a>-удобная ориентация </li>
                 <li><a href="http://yoksel.github.io/flex-cheatsheet/">FlexBox</a>-много подсказок </li>
             </ol> 
-        
+        </div>
+        <div class="q">
           <h3>Генераторы CSS</h3>
-            <ol>
-                <li><a href="https://css3gen.com/">CSS3gen</a>-</li>
-                <li><a href="https://color.hailpixel.com/">Hailpixel</a>-</li>
-                <li><a href="https://cssgradient.io/">CSSgradient</a>-</li>
-            </ol> 
-        
-          <h3>Библиотеки</h3>
-            <ol>
-                <li><a href="https://nodejs.org/uk/">Node.js</a>-</li>
-                <li><a href="https://animejs.com/">Animejs/</a>-</li>
-                <li><a href="https://jqueryui.com/">Jqueryui</a>-</li>
-            </ol> 
-        
-           <h3>Программы/сайты для создания макетов</h3>
-           <ol>
-            <li><a href="https://www.adobe.com/creativecloud/tools/web-design-software.html">Adobe Xd</a>-</li>
-            <li><a href="https://www.figma.com/">Figma</a>-</li>
-            <li><a href="https://tilda.cc/ru/">Tilda</a>-</li>
-        </ol> 
-        </body>
-    <script>var modal = document.getElementById('myModal');
+    <ol>
+        <li><a href="https://css3gen.com/">CSS3gen</a>-олезен в создании стилей</li>
+        <li><a href="https://color.hailpixel.com/">Hailpixel</a>-поможет подобрать цветовую схему</li>
+        <li><a href="https://cssgradient.io/">CSSgradient</a>-создаст идеальный градиентный фон</li>
+    </ol> 
+
+  <h3>Библиотеки</h3>
+    <ol>
+        <li><a href="https://nodejs.org/uk/">Node.js</a>-полезная библиотека</li>
+        <li><a href="https://animejs.com/">Animejs/</a>-облегчает анимацию сайта</li>
+        <li><a href="https://jqueryui.com/">Jqueryui</a>-облегчает функционал</li>
+    </ol> 
+
+   <h3>Программы/сайты для создания макетов</h3>
+   <ol>
+    <li><a href="https://www.adobe.com/creativecloud/tools/web-design-software.html">Adobe Xd</a>-профессиональное создание макетов</li>
+    <li><a href="https://www.figma.com/">Figma</a>-упрощенное создание макетов</li>
+    <li><a href="https://tilda.cc/ru/">Tilda</a>-поможет создать функциональный макет</li>
+</ol> 
+</div>
+
+<footer>
+ <div class="lsq"> <img src=NewCanvas3.png id="ktulhu">  </div>
+ <div class="ber">© HelpEmptyToBreakBrackets 2021</div>
 
 
-      var btn = document.getElementById("myBtn");
-      
-      
-      var span = document.getElementsByClassName("close")[0];
-      
-      
-      btn.onclick = function() {
-          modal.style.display = "block";
-      }
-      
-      
-      span.onclick = function() {
+   
+ </div>
+</footer>
+
+
+        
+<script>var modal = document.getElementById('myModal');
+
+
+  var btn = document.getElementById("myBtn");
+  
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+  
+  
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  
+  
+  window.onclick = function(event) {
+      if (event.target == modal) {
           modal.style.display = "none";
       }
-      
-      
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-      }</script>
+  }</script>
 </body>
 </html>

@@ -6,6 +6,44 @@ position: cover;
 max-width:100%;
     font-size: 0.85vw;
   }
+  a{
+    text-decoration: none;
+    color:rgb(201, 42, 42);
+    font-weight:bold;
+font-size:18px;
+  }
+  a:hover{
+    text-decoration: none;
+    color:rgb(46, 50, 255);
+    font-weight:bold;
+font-size:18px;
+
+  }
+  footer{
+    position: absolute;
+    text-align: center;
+    margin-top:30em;
+    width: 99.5%;
+    height:5em;
+    color:white;
+    font-size: 18pt;
+    background: #2A2A93;
+    background: linear-gradient(270deg, #27288A 0%, #3143a7
+  82%)
+  }
+  .lsq{text-align: center;
+}
+.ber{ text-align: center;
+  margin-top: 2em;
+}
+#ktulhu{width: 3vw;
+  margin-top: 1em;
+  margin-left:35em;
+  position: absolute;
+}
+  .q{float:left;
+  margin-left:13em;
+font-size: 17pt;}
 hr{background-color:#27288A ;
   height:0.1em;
 margin-bottom: 0;}
@@ -15,35 +53,39 @@ margin-bottom: 0;}
   .help{color:#ffffff;
     margin-top:10em;
     margin-left:10em;
-    font-size:1.2em;
+    font-size:15pt;
+    font-family: Cambria;
     float:left;
   }
   #betatest{float: right;
   font-size: 5em;
   margin-top: 0.3em;
   color:#ffffff}
-.top{
- 
-    margin-top:0;
-    margin-bottom:0;
-    background: rgb(18,10,167);
-    background: linear-gradient(270deg, #27288A 0%, #2F2FA1
- 82%)
-}
+
 #seees{  
   width:8em;
 }
-  .bottom{
-    height: 50em;
-    margin-top:-10;
-    background: rgb(18,10,167);
-    background: linear-gradient(270deg, #27288A 0%, #2F2FA1
- 82%)
-  }
+.top{
+ 
+  margin-top:0;
+  margin-bottom:0;
+  background: #2A2A93;
+  background: linear-gradient(270deg, #27288A 0%, #3143a7
+82%)
+}
+
+.bottom{
+  height: 50em;
+  margin-top:-10;
+  background: #27288A;
+  background: linear-gradient(270deg, #3143a7 0%, #27288A
+82%)
+}
+
   .siza{margin-left:50em;
     max-width:100%;
   }
-  .modal{
+  .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -116,10 +158,4 @@ margin-bottom: 0;}
     .modal-body a{
     text-decoration:none;
     color:black;
-    }
-    .seees{width:10em;
-    height:auto;
-    width:absolute;
-    max-width:100%;
-    margin-left:110px;
     }
